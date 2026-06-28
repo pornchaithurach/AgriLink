@@ -1,7 +1,10 @@
 const nextConfig = {
   output: "export",
-  images: { unoptimized: true },
-  basePath: "/AgriLink", // 👈 ชื่อ repo
+  trailingSlash: true,
+
+  // 🔥 สำคัญมากสำหรับ GitHub Pages
+  basePath: "/AgriLink",  // 👈 ชื่อ repo
+  assetPrefix: "/AgriLink/",
 }
 
 module.exports = nextConfig
