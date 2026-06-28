@@ -1,3 +1,5 @@
+const isProd = process.env.NODE_ENV === 'production'
+
 const nextConfig = {
   output: "export",
   trailingSlash: true,
@@ -6,8 +8,8 @@ const nextConfig = {
     unoptimized: true, 
   },
   // 🔥 สำคัญมากสำหรับ GitHub Pages
-  basePath: "/AgriLink/out",
-  assetPrefix: "/AgriLink/out/",
+  basePath: isProd ? '/AgriLink' : '',
+  assetPrefix: isProd ? '/AgriLink/' : '',
 }
 
 module.exports = nextConfig
