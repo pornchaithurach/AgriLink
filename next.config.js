@@ -3,7 +3,7 @@ const nextConfig = {
   trailingSlash: true,
 
   // 🔥 สำคัญมากสำหรับ GitHub Pages
-  basePath: "/AgriLink",  // 👈 ชื่อ repo
+  basePath: "/AgriLink",
   assetPrefix: "/AgriLink/",
 }
 
