@@ -1,3 +1,7 @@
 "scripts": {
-  "deploy": "main -d out"
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+
+  "deploy": "gh-pages -d out"
 }
