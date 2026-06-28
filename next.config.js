@@ -3,8 +3,8 @@ const nextConfig = {
   trailingSlash: true,
 
   // 🔥 สำคัญมากสำหรับ GitHub Pages
-  basePath: "/AgriLink",
-  assetPrefix: "/AgriLink/",
+  basePath: "/AgriLink/out",
+  assetPrefix: "/AgriLink/out/",
 }
 
 module.exports = nextConfig
